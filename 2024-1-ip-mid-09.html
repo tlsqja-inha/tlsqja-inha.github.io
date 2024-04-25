@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <h1>인하대 컴퓨터공학과 홈페이지 회원가입</h1>
+    <style>
+        form {}
+    </style>
+</head>
+
+<body>
+    <h2>필수 정보</h2>
+    <form>
+        <div>
+            <h3>이메일</h3>
+            <input type="text" name="email" placeholder="E-mail"><input type="button" id="button" value="형식 체크"><br>
+        </div>
+        <div>
+            <h3>패스워드</h3>
+            <input type="password" name="passwd1" placeholder="Password"><br>
+        </div>
+        <div>
+            <h3>패스워드 재입력</h3>
+            <input type="password" name="passwd2" placeholder="Password (Repeat)"><br>
+        </div>
+        <div>
+            <h3>이름</h3>
+            <input type="text" name="username" placeholder="Name"><br>
+        </div>
+        <div>
+            <h3>성별</h3>
+            <input type="radio" name="gender" value="m">
+            <label for="m">남자 (Man)</label>
+            <input type="radio" name="gender" value="w">
+            <label for="w">여자 (Woman)</label>
+        </div>
+        <div>
+            <h3>분류</h3>
+            <select>
+                <option value="u">학사과정 (Undergraduate)</option>
+                <option value="m">석사과정 (Master Student)</option>
+                <option value="p">박사과정 (Ph.D. Student)</option>
+                <option value="f">교직원 (Faculty/Staff)</option>
+                <option value="s">학부모 (Student Parent)</option>
+                <option value="g">일반인 (General)</option>
+            </select>
+            <input type="submit" value="정보 제출">
+        </div>
+    </form>
+</body>
+
+</html>
